@@ -5,15 +5,18 @@ body {
 	margin: 0px;
 	font-family: 'Ubuntu', i;
 	background-color: #CFFCD2;
-	padding: 20vmin;
 }
 
 p {
 	margin: 0px;
 	font-size: 75vmin;
-	word-wrap: break-word;
 	line-height: 80%;
 	text-align: center;
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
 }
 
 a:hover, a:visited, a:link, a:active{
