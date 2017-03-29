@@ -5,13 +5,14 @@ body {
 	margin: 0px;
 	font-family: 'Ubuntu', i;
 	background-color: #CFFCD2;
-	padding: 50px;
+	padding: 20vmin;
 }
 
 p {
 	margin: 0px;
-	font-size: 70vmin;
+	font-size: 75vmin;
 	word-wrap: break-word;
+	line-height: 80%;
 	text-align: center;
 }
 
