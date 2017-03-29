@@ -2,11 +2,20 @@
 
 
 body {
+	margin: 0px;
 	font-family: 'Ubuntu', i;
+	background-color: #CFFCD2;
+	padding: 50px;
 }
 
 p {
+	margin: 0px;
+	font-size: 75vmin;
+	word-wrap: break-word;
+	text-align: center;
+}
 
-	font-size: 48px;
-	color: #2700ff;
+a:hover, a:visited, a:link, a:active{
+	color: #012CFA;
+	text-decoration: none;
 }
