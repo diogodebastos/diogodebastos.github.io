@@ -4,7 +4,7 @@
 body {
 	margin: 0px;
 	font-family: 'Ubuntu', i;
-	background-color: #CFFCD2;
+	background-color: #012CFA;
 }
 
 p {
@@ -20,6 +20,6 @@ p {
 }
 
 a:hover, a:visited, a:link, a:active{
-	color: #012CFA;
+	color: #CFFCD2;
 	text-decoration: none;
 }
