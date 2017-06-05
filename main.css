@@ -22,7 +22,7 @@ p {
 
 a:hover{
 	font-family: 'Vibur', cursive;
-	animation: bgcolor infinite 600ms;
+	animation: bgcolor infinite 433ms;
 }
 
 a:visited, a:link, a:active{
