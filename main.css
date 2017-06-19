@@ -6,6 +6,7 @@ body {
 	margin: 0px;
 	font-family: 'Slabo 27px', serif;
 	background-color: black;
+	overflow: hidden;
 }
 
 p {
