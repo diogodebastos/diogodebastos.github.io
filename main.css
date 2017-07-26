@@ -1,18 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Vibur);
-
+/* @import url(https://fonts.googleapis.com/css?family=Slabo+27px|Artifika);*/
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Plaster);
 
 
 body {
 	margin: 0px;
-	font-family: 'Slabo 27px', serif;
-	background-color: black;
 	overflow: hidden;
+	background-image: url("assets/bg.png");
+	background-size: 50% auto; /* width and height, can be %, px or whatever. */
+	background-position: right bottom; /*Positioning*/
+	background-repeat: no-repeat; /*Prevent showing multiple background images*/
+	background-color: white;
 }
 
 p {
 	margin: 0px;
-	font-size: 75vmin;
-	line-height: 20%;
+	font-size: 70vmin;
+	line-height: 100%;
 	text-align: center;
 	display: flex;
 	height: 100vh;
@@ -21,40 +24,40 @@ p {
 	justify-content: center;
 }
 
+a {
+	animation: bgcolor infinite 1s;
+	font-family: 'Plaster', cursive;
+}
+
 a:hover{
-	font-family: 'Vibur', cursive;
-	animation: bgcolor infinite 433ms;
+	font-family: 'Slabo 27px', serif;
+	animation: none;
 }
 
 a:visited, a:link, a:active{
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
 @keyframes bgcolor{
-	20%
+	25%
 	{
-		background: #ff0000;
-		color: #000000;
+		background: #000000;
+		color: #FFFF00;
 	}
-	40%
+	50%
 	{
-		background: #00ff00;
-		color: #ff0000;
+		background: #FFFF00;
+		color: #FF0000;
 	}
-	60%
+	75%
 	{
-		background: #0000ff;
-		color: #00ff00;
-	}
-	80%
-	{
-		background: #ffffff;
-		color: #0000ff;
+		background: #FF0000;
+		color: #9900FF;
 	}
 	100%
 	{
-		background: #000000;
-		color: #ffffff;
+		background: #9900FF;
+		color: #000000;
 	}
 }
