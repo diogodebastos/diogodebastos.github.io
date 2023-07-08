@@ -5,7 +5,7 @@
 body {
 	margin: 0px;
 	overflow: hidden;
-	background-image: url("assets/bg.png");
+	/*background-image: url("assets/bg.png");*/
 	background-size: 50% auto; /* width and height, can be %, px or whatever. */
 	background-position: right bottom; /*Positioning*/
 	background-repeat: no-repeat; /*Prevent showing multiple background images*/
